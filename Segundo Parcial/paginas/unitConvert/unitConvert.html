@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="/paginas/unitConvert/style.css">
+</head>
+<body>
+    <h1>Conversor de Temperatura</h1>
+    <p>Ingrese una temperatura y seleccione la unidad de entrada y salida:</p>
+
+    <label for="temperature">Temperatura:</label>
+    <input type="number" id="temperature" placeholder="Ingrese la temperatura" step="0.01">
+
+    <label for="inputUnit">Unidad de Entrada:</label>
+    <select id="inputUnit">
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+    </select>
+
+    <label for="outputUnit">Unidad de Salida:</label>
+    <select id="outputUnit">
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+    </select>
+
+    <button id="convertButton">Convertir</button>
+
+    <p id="result">El resultado se mostrará aquí.</p>
+<script type="module" src="/js/unitConvertA.js"></script></center>
+<a href="/Inicio.html">Volver a Inicio</a>
+
+</body>
+</html>
